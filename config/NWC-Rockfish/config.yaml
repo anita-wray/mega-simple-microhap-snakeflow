@@ -52,10 +52,14 @@ genomes:
 marker_sets:
   DIANA:
     target_fasta:
-      test_54:
-        fasta: config/NWC-Rockfish/target_fastas/test_54.fasta
+      diana-fasta:
+        fasta: config/NWC-Rockfish/target_fastas/gtseq18_loci.fasta
         microhap_variants:
-          snps4test: config/NWC-Rockfish/canonical_variation/test_54.vcf
+          snps4test: config/NWC-Rockfish/canonical_variation/sebastes_sppID_combined_filtered.recode.vcf
+  VMSURF:
+    target_fasta:
+      vmsurf-fasta:
+        fasta: config/NWC-Rockfish/target_fastas/sun_verm_canary_diagnostic.fasta
 
 
 
