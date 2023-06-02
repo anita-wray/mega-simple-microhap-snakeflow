@@ -27,3 +27,4 @@ filegraph.svg
 MULTI_RUN_RESULTS
 *.fai
 /rockfish
+.DS_Store
