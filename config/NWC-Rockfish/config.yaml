@@ -60,6 +60,8 @@ marker_sets:
     target_fasta:
       vmsurf-fasta:
         fasta: config/NWC-Rockfish/target_fastas/sun_verm_canary_diagnostic.fasta
+        microhap_variants:
+          all_snps: rockfish/NWC-Rockfish/vcfs/VMSURF/target_fasta/vmsurf-fasta/variants-bcftools.vcf
 
 
 
