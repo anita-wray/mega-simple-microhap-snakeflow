@@ -56,12 +56,12 @@ marker_sets:
         fasta: config/NWC-Rockfish/target_fastas/gtseq18_loci.fasta
         microhap_variants:
           snps4test: config/NWC-Rockfish/canonical_variation/sebastes_sppID_combined_filtered.recode.vcf
-  VMSURF:
+  GARY:
     target_fasta:
       vmsurf-fasta:
         fasta: config/NWC-Rockfish/target_fastas/sun_verm_canary_diagnostic.fasta
         microhap_variants:
-          all_snps: rockfish/NWC-Rockfish/vcfs/VMSURF/target_fasta/vmsurf-fasta/variants-bcftools.vcf
+          filtered_snps: config/NWC-Rockfish/canonical_variation/GARY-filtered-variants-76.vcf
 
 
 

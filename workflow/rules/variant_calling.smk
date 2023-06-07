@@ -18,7 +18,7 @@ rule call_fullg_marker_sets_with_bcftools:
   output:
     vcf="{run_dir}/{species_dir}/vcfs/{marker_set}/fullg/{genome}/variants-bcftools.vcf"
   shell:
-    "bcftools mpileup -f {input.fna} -R {input.bed} -a AD,DP,INFO/AD "
+    "ulimit -n 22000; bcftools mpileup -f {input.fna} -R {input.bed} -a AD,DP,INFO/AD "
     "-B  -q 20 -Q 20 {input.bams} 2> {log.mpileup} | bcftools call -v -m  2> {log.call} | bcftools sort 2> {log.sort} | bcftools norm -m +any -f {input.fna} > {output.vcf}  2> {log.norm} "
 
 
@@ -37,7 +37,7 @@ rule call_target_fasta_marker_sets_with_bcftools:
   output:
     vcf="{run_dir}/{species_dir}/vcfs/{marker_set}/target_fasta/{target_fasta}/variants-bcftools.vcf"
   shell:
-    "bcftools mpileup -f {input.fna} -a AD,DP,INFO/AD "
+    "ulimit -n 22000; bcftools mpileup -f {input.fna} -a AD,DP,INFO/AD "
     " -B  -q 20 -Q 20 {input.bams}  2> {log.mpileup} | bcftools call -v -m  2> {log.call} | bcftools sort 2> {log.sort} | bcftools norm -m +any -f {input.fna} > {output.vcf}  2> {log.norm} "
 
 
@@ -56,7 +56,7 @@ rule call_fullgex_remapped_markers_with_bcftools:
   output:
     vcf="{run_dir}/{species_dir}/vcfs/{marker_set}/fullgex_remapped/{genome}/variants-bcftools.vcf"
   shell:
-    "bcftools mpileup -f {input.fna} -a AD,DP,INFO/AD "
+    "ulimit -n 22000; bcftools mpileup -f {input.fna} -a AD,DP,INFO/AD "
     "-B  -q 20 -Q 20 {input.bams} 2> {log.mpileup} | bcftools call -v -m  2> {log.call} | bcftools sort 2> {log.sort} | bcftools norm -m +any -f {input.fna} > {output.vcf}  2> {log.norm} "
 
 

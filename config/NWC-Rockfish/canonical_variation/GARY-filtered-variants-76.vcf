@@ -1,0 +1,350 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##bcftoolsVersion=1.12+htslib-1.12
+##bcftoolsCommand=mpileup -f resources/NWC-Rockfish/target_fastas/GARY/vmsurf-fasta/ref.fna -a AD,DP,INFO/AD -B -q 20 -Q 20 rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00287.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00288.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00289.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00290.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00291.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00292.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00293.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00294.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00295.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00296.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00297.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00298.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00299.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00300.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00301.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00302.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00303.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00304.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00305.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00306.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00307.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00308.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00309.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00310.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00311.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00312.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00313.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00314.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00315.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00316.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00317.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00318.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00319.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00320.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00321.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00322.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00323.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00324.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00325.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00326.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00327.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00328.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00329.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00330.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00331.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00332.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00333.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00334.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00335.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00336.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00337.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00338.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00339.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00340.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00341.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00342.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00343.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00344.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00345.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00346.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00347.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00348.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00349.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00350.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00351.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00352.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00353.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00354.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00355.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00356.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00357.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00358.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00359.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00360.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00361.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00362.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00363.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00364.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00365.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00366.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00367.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00368.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00369.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00370.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00371.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00372.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00373.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00374.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00375.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00376.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00377.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00378.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00379.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00380.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00381.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00382.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00383.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00384.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00385.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00386.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00387.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00388.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00389.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00390.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00391.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00392.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00393.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00394.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00395.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00396.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00397.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00398.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00399.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00400.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00401.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00402.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00403.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00404.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00405.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00406.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00407.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00408.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00409.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00410.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00411.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00412.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00413.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00414.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00415.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00416.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00417.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00418.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00419.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00420.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00421.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00422.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00423.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00424.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00425.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00426.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00427.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00428.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00429.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00430.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00431.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00432.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00433.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00434.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00435.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00436.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00437.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00438.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00439.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00440.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00441.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00442.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00443.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00444.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00445.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00446.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00447.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00448.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00449.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00450.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00451.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00452.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00453.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00454.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00455.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00456.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00457.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00458.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00459.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00460.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00461.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00462.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00463.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00464.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00465.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00466.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00467.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00468.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00469.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00470.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00471.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00472.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00473.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00474.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00475.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00476.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00477.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00478.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00479.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00480.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00481.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00482.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00483.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00484.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00485.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00486.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00487.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00488.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00489.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00490.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00491.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00492.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00493.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00494.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00495.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00496.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00497.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00498.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00499.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00500.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00501.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00502.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00503.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00504.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00505.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00506.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00507.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00508.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00509.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00510.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00511.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00512.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00513.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00514.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00515.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00516.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00517.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00518.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00519.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00520.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00521.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00522.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00523.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00524.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00525.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00526.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00527.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00528.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00529.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00530.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00531.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00532.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00533.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00534.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00535.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00536.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00537.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00538.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00539.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00540.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00541.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00542.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00543.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00544.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00545.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00546.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00547.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00548.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00549.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00550.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00551.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00552.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00553.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00554.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00555.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00556.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00557.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00558.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00559.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00560.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00561.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00562.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00563.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00564.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00565.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00566.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00567.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00568.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00569.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00570.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00571.bam rockfish/NWC-Rockfish/bams/target_fastas/GARY/vmsurf-fasta/s00572.bam
+##reference=file://resources/NWC-Rockfish/target_fastas/GARY/vmsurf-fasta/ref.fna
+##contig=<ID=104,length=788>
+##contig=<ID=126,length=757>
+##contig=<ID=647,length=805>
+##contig=<ID=1031,length=855>
+##contig=<ID=1141,length=847>
+##contig=<ID=1238,length=795>
+##contig=<ID=1321,length=798>
+##contig=<ID=1367,length=798>
+##contig=<ID=1378,length=699>
+##contig=<ID=1603,length=779>
+##contig=<ID=1933,length=855>
+##contig=<ID=3267,length=679>
+##contig=<ID=4493,length=827>
+##contig=<ID=5453,length=801>
+##contig=<ID=5699,length=865>
+##contig=<ID=6212,length=845>
+##contig=<ID=6261,length=759>
+##contig=<ID=7270,length=741>
+##contig=<ID=7408,length=731>
+##contig=<ID=7793,length=784>
+##contig=<ID=8443,length=801>
+##contig=<ID=9873,length=755>
+##contig=<ID=10689,length=828>
+##contig=<ID=13104,length=787>
+##contig=<ID=14078,length=783>
+##contig=<ID=14246,length=889>
+##contig=<ID=14478,length=819>
+##contig=<ID=14562,length=805>
+##contig=<ID=14589,length=725>
+##contig=<ID=14734,length=859>
+##contig=<ID=14940,length=771>
+##contig=<ID=14985,length=771>
+##contig=<ID=15003,length=785>
+##contig=<ID=15007,length=777>
+##contig=<ID=15201,length=798>
+##contig=<ID=15286,length=809>
+##contig=<ID=15568,length=832>
+##contig=<ID=15614,length=815>
+##contig=<ID=15625,length=768>
+##contig=<ID=15792,length=811>
+##contig=<ID=16013,length=831>
+##contig=<ID=16149,length=808>
+##contig=<ID=16387,length=800>
+##contig=<ID=17287,length=836>
+##contig=<ID=17604,length=854>
+##contig=<ID=17858,length=736>
+##contig=<ID=18046,length=780>
+##contig=<ID=18119,length=840>
+##contig=<ID=18491,length=801>
+##contig=<ID=18511,length=834>
+##contig=<ID=18815,length=783>
+##contig=<ID=18888,length=873>
+##contig=<ID=18982,length=828>
+##contig=<ID=19008,length=858>
+##contig=<ID=19011,length=770>
+##contig=<ID=19014,length=852>
+##contig=<ID=19040,length=801>
+##contig=<ID=19821,length=719>
+##contig=<ID=19917,length=840>
+##contig=<ID=20038,length=806>
+##contig=<ID=20259,length=705>
+##contig=<ID=20816,length=752>
+##contig=<ID=21344,length=827>
+##contig=<ID=21519,length=828>
+##contig=<ID=21718,length=820>
+##contig=<ID=21789,length=814>
+##contig=<ID=22252,length=769>
+##contig=<ID=22278,length=760>
+##contig=<ID=22326,length=720>
+##contig=<ID=22865,length=816>
+##contig=<ID=22912,length=748>
+##contig=<ID=22948,length=798>
+##contig=<ID=22960,length=856>
+##contig=<ID=23039,length=738>
+##contig=<ID=23053,length=881>
+##contig=<ID=23385,length=835>
+##contig=<ID=23413,length=849>
+##contig=<ID=23884,length=777>
+##contig=<ID=23903,length=814>
+##contig=<ID=24164,length=808>
+##contig=<ID=24183,length=774>
+##contig=<ID=24259,length=762>
+##contig=<ID=24266,length=808>
+##contig=<ID=24382,length=781>
+##contig=<ID=24390,length=784>
+##contig=<ID=24419,length=685>
+##contig=<ID=25417,length=829>
+##contig=<ID=25543,length=893>
+##contig=<ID=25609,length=760>
+##contig=<ID=26252,length=820>
+##contig=<ID=26308,length=869>
+##contig=<ID=26581,length=813>
+##contig=<ID=27030,length=805>
+##contig=<ID=27246,length=671>
+##contig=<ID=27254,length=858>
+##contig=<ID=27378,length=793>
+##contig=<ID=27396,length=721>
+##contig=<ID=27562,length=778>
+##contig=<ID=28352,length=729>
+##contig=<ID=28559,length=794>
+##contig=<ID=29276,length=765>
+##contig=<ID=30506,length=780>
+##contig=<ID=30728,length=767>
+##contig=<ID=31366,length=796>
+##contig=<ID=31500,length=836>
+##contig=<ID=31561,length=726>
+##contig=<ID=31969,length=738>
+##contig=<ID=32276,length=833>
+##contig=<ID=32365,length=749>
+##contig=<ID=32721,length=812>
+##contig=<ID=32900,length=823>
+##contig=<ID=32905,length=789>
+##contig=<ID=32914,length=859>
+##contig=<ID=33004,length=809>
+##contig=<ID=33161,length=842>
+##contig=<ID=33185,length=807>
+##contig=<ID=34160,length=756>
+##contig=<ID=34357,length=796>
+##contig=<ID=34943,length=825>
+##contig=<ID=35458,length=760>
+##contig=<ID=35823,length=787>
+##contig=<ID=36393,length=778>
+##contig=<ID=36934,length=753>
+##contig=<ID=37231,length=782>
+##contig=<ID=38356,length=816>
+##contig=<ID=38368,length=930>
+##contig=<ID=38494,length=758>
+##contig=<ID=38516,length=774>
+##contig=<ID=38526,length=780>
+##contig=<ID=38547,length=831>
+##contig=<ID=38801,length=860>
+##contig=<ID=38973,length=787>
+##contig=<ID=39023,length=800>
+##contig=<ID=39189,length=840>
+##contig=<ID=39233,length=785>
+##contig=<ID=39527,length=800>
+##contig=<ID=40013,length=772>
+##contig=<ID=40247,length=757>
+##contig=<ID=40347,length=808>
+##contig=<ID=40366,length=796>
+##contig=<ID=40396,length=831>
+##contig=<ID=40720,length=818>
+##contig=<ID=41203,length=809>
+##contig=<ID=41207,length=817>
+##contig=<ID=42227,length=808>
+##contig=<ID=42601,length=823>
+##contig=<ID=42759,length=848>
+##contig=<ID=42764,length=815>
+##contig=<ID=42816,length=788>
+##contig=<ID=42945,length=789>
+##contig=<ID=42956,length=513>
+##contig=<ID=42980,length=763>
+##contig=<ID=43217,length=846>
+##contig=<ID=43470,length=787>
+##contig=<ID=43526,length=891>
+##contig=<ID=43947,length=815>
+##contig=<ID=44081,length=843>
+##contig=<ID=45116,length=765>
+##contig=<ID=45176,length=873>
+##contig=<ID=45259,length=719>
+##contig=<ID=45279,length=761>
+##contig=<ID=45338,length=811>
+##contig=<ID=45671,length=827>
+##contig=<ID=45720,length=753>
+##contig=<ID=45805,length=737>
+##contig=<ID=46024,length=692>
+##contig=<ID=46101,length=708>
+##contig=<ID=46158,length=800>
+##contig=<ID=46550,length=841>
+##contig=<ID=47867,length=860>
+##contig=<ID=48276,length=846>
+##contig=<ID=48848,length=774>
+##contig=<ID=49123,length=809>
+##contig=<ID=81175,length=798>
+##contig=<ID=82299,length=743>
+##contig=<ID=83038,length=720>
+##contig=<ID=85001,length=727>
+##contig=<ID=86124,length=813>
+##contig=<ID=92615,length=852>
+##contig=<ID=93449,length=786>
+##contig=<ID=97479,length=844>
+##contig=<ID=104989,length=749>
+##contig=<ID=108168,length=826>
+##contig=<ID=111289,length=799>
+##contig=<ID=6246,length=778>
+##contig=<ID=7412,length=813>
+##contig=<ID=8404,length=746>
+##contig=<ID=9984,length=759>
+##contig=<ID=12697,length=889>
+##contig=<ID=13317,length=764>
+##contig=<ID=16832,length=775>
+##contig=<ID=17666,length=812>
+##contig=<ID=19675,length=702>
+##contig=<ID=20154,length=813>
+##contig=<ID=21736,length=827>
+##contig=<ID=23630,length=855>
+##contig=<ID=24233,length=773>
+##contig=<ID=24876,length=766>
+##contig=<ID=25547,length=621>
+##contig=<ID=26321,length=886>
+##contig=<ID=27411,length=795>
+##contig=<ID=32128,length=701>
+##contig=<ID=36532,length=831>
+##contig=<ID=43731,length=772>
+##contig=<ID=46548,length=640>
+##contig=<ID=46762,length=764>
+##contig=<ID=48660,length=814>
+##contig=<ID=48820,length=670>
+##contig=<ID=49275,length=808>
+##contig=<ID=93547,length=803>
+##contig=<ID=96615,length=777>
+##contig=<ID=4596,length=813>
+##contig=<ID=5570,length=758>
+##contig=<ID=6552,length=666>
+##contig=<ID=7215,length=818>
+##contig=<ID=8200,length=872>
+##contig=<ID=10437,length=723>
+##contig=<ID=12084,length=817>
+##contig=<ID=14033,length=815>
+##contig=<ID=14111,length=787>
+##contig=<ID=17120,length=816>
+##contig=<ID=20233,length=842>
+##contig=<ID=27556,length=849>
+##contig=<ID=28710,length=742>
+##contig=<ID=29121,length=767>
+##contig=<ID=29888,length=835>
+##contig=<ID=31697,length=801>
+##contig=<ID=31932,length=809>
+##contig=<ID=32055,length=822>
+##contig=<ID=33601,length=859>
+##contig=<ID=36504,length=842>
+##contig=<ID=43678,length=797>
+##contig=<ID=44010,length=857>
+##contig=<ID=45980,length=860>
+##contig=<ID=47204,length=823>
+##contig=<ID=47305,length=784>
+##contig=<ID=48898,length=844>
+##contig=<ID=49065,length=758>
+##contig=<ID=91560,length=752>
+##contig=<ID=111430,length=702>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of raw reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of raw reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPB,Number=1,Type=Float,Description="Mann-Whitney U test of Read Position Bias (bigger is better)">
+##INFO=<ID=MQB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality Bias (bigger is better)">
+##INFO=<ID=BQB,Number=1,Type=Float,Description="Mann-Whitney U test of Base Quality Bias (bigger is better)">
+##INFO=<ID=MQSB,Number=1,Type=Float,Description="Mann-Whitney U test of Mapping Quality vs Strand Bias (bigger is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric.">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Number of high-quality bases">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths (high-quality bases)">
+##INFO=<ID=AD,Number=R,Type=Integer,Description="Total allelic depths (high-quality bases)">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
+##bcftools_callVersion=1.12+htslib-1.12
+##bcftools_callCommand=call -v -m; Date=Wed Jun 14 10:21:58 2023
+##bcftools_normVersion=1.12+htslib-1.12
+##bcftools_normCommand=norm -m +any -f resources/NWC-Rockfish/target_fastas/GARY/vmsurf-fasta/ref.fna; Date=Wed Jun 14 10:25:36 2023
+##bcftools_viewVersion=1.11+htslib-1.11
+##bcftools_viewCommand=view -i 'F_MISSING < 0.03' /home/awray/vermilionrf/microhap/mega-simple-microhap-snakeflow/rockfish/NWC-Rockfish/vcfs/GARY/target_fasta/vmsurf-fasta/variants-bcftools.vcf; Date=Wed Jun 14 13:21:59 2023
+##bcftools_viewCommand=view -s H-14-MI-V0197; Date=Wed Jun 14 13:21:59 2023
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	H-14-MI-V0197
+647	8	.	T	C	4.22598	.	DP=29344;AD=28712,44;VDB=1.16308e-43;SGB=-2453.08;RPB=0.812214;MQB=0.907055;BQB=0.498968;MQ0F=0;AC=0;AN=2;DP4=28712,0,59,0;MQ=59	GT:PL:DP:AD	0/0:0,84,192:28:28,0
+647	23	.	CCA	C	640.253	.	INDEL;IDV=200;IMF=0.938967;DP=29354;AD=29254,100;VDB=0;SGB=241.981;MQ0F=0;AC=0;AN=2;DP4=29254,0,100,0;MQ=59	GT:PL:DP:AD	0/0:0,84,255:28:28,0
+647	48	.	AAGT	A,AAGTAGT	4059.11	.	INDEL;IDV=201;IMF=0.975728;DP=28541;AD=27321,1136,84;VDB=0;SGB=66.7381;MQ0F=0;AC=0,0;AN=2;DP4=27321,0,1220,0;MQ=59	GT:PL:DP:AD	0/0:0,75,255,75,255,255:25:25,0,0
+1141	72	.	C	T	848.416	.	DP=46904;AD=45183,655;VDB=0;SGB=-6380.17;RPB=0.687151;MQB=0.614133;BQB=0.772439;MQ0F=0;AC=0;AN=2;DP4=45183,0,664,0;MQ=59	GT:PL:DP:AD	0/0:0,255,255:164:164,0
+1141	76	.	A	G	5220.54	.	DP=46903;AD=40374,5152;VDB=0;SGB=-949.333;RPB=0.783586;MQB=0.933513;BQB=0.8489;MQ0F=0;AC=0;AN=2;DP4=40374,0,5161,0;MQ=59	GT:PL:DP:AD	0/0:0,255,255:158:158,0
+1141	79	.	G	T	17942.6	.	DP=46894;AD=29086,16473;VDB=0;SGB=7143.91;RPB=0.130099;MQB=0.631848;BQB=2.74875e-09;MQ0F=0;AC=0;AN=2;DP4=29086,0,16589,0;MQ=59	GT:PL:DP:AD	0/0:0,255,255:157:155,1
+1141	85	.	T	C	53584.9	.	DP=46877;AD=6649,39115;VDB=0;SGB=1687.28;RPB=1.70183e-06;MQB=0.981575;BQB=8.02571e-25;MQ0F=0;AC=0;AN=2;DP4=6649,0,39131,0;MQ=59	GT:PL:DP:AD	0/0:0,255,255:161:160,1
+1141	115	.	T	A	63301.2	.	DP=45113;AD=46,39713;VDB=0;SGB=2211.01;RPB=0.979793;MQB=0.756841;BQB=0.0011604;MQ0F=0;AC=2;AN=2;DP4=46,0,39801,0;MQ=59	GT:PL:DP:AD	1/1:240,255,0:118:0,118
+1603	52	.	A	G	53641.3	.	DP=54637;AD=4939,48627;VDB=0;SGB=-411.054;RPB=3.0248e-07;MQB=0;BQB=0.999541;MQ0F=0;AC=2;AN=2;DP4=4939,0,48822,0;MQ=52	GT:PL:DP:AD	1/1:194,226,0:247:31,216
+1603	54	.	G	T	3025.5	.	DP=54674;AD=44631,8391;VDB=0;SGB=-27908.4;RPB=0;MQB=0;BQB=0.968742;MQ0F=0;AC=0;AN=2;DP4=44631,0,9156,0;MQ=52	GT:PL:DP:AD	0/0:0,255,210:248:224,24
+1603	55	.	G	A	11201.5	.	DP=54684;AD=40501,13074;VDB=0;SGB=-21670.9;RPB=3.18862e-20;MQB=0;BQB=4.04066e-14;MQ0F=0;AC=1;AN=2;DP4=40501,0,13100,0;MQ=52	GT:PL:DP:AD	0/1:125,0,198:245:154,91
+1603	69	.	T	C	35451.9	.	DP=53159;AD=32011,19783;VDB=0;SGB=-12799.5;RPB=0;MQB=0;BQB=0.85419;MQ0F=0;AC=1;AN=2;DP4=32011,0,19905,0;MQ=52	GT:PL:DP:AD	0/1:156,0,198:233:137,96
+1603	72	.	GCCCTCTACACA	G	414.354	.	INDEL;IDV=20;IMF=0.0793651;DP=54724;AD=52259,2465;VDB=0;SGB=-41760.6;MQ0F=0;AC=0;AN=2;DP4=52259,0,2465,0;MQ=52	GT:PL:DP:AD	0/0:0,182,53:250:226,24
+1603	76	.	TCTACACACCCA	ACTACACACCCA,T	32242.9	.	DP=52782;AD=51119,18189,3472;VDB=0;SGB=-13395.8;RPB=0;MQB=0;BQB=2.73265e-20;MQ0F=0;AC=1,0;AN=2;DP4=31693,0,18325,0;MQ=52	GT:PL:DP:AD	0/1:0,0,134,175,.,84:206:226,54,24
+1603	77	.	C	T	22.0834	.	DP=49296;AD=45372,2938;VDB=0;SGB=-32910.3;RPB=0.687483;MQB=0.0703756;BQB=0.0777429;MQ0F=0;AC=0;AN=2;DP4=45372,0,3144,0;MQ=52	GT:PL:DP:AD	0/0:0,255,253:221:214,7
+1603	82	.	C	T	131.142	.	DP=49250;AD=44643,3571;VDB=0;SGB=-32587.9;RPB=0.233912;MQB=0;BQB=0.386463;MQ0F=0;AC=0;AN=2;DP4=44643,0,3681,0;MQ=52	GT:PL:DP:AD	0/0:0,255,255:220:217,3
+1603	83	.	A	G	64577.7	.	DP=47532;AD=831,44097;VDB=0;SGB=-184.248;RPB=0.642977;MQB=3.2288e-25;BQB=1.17147e-08;MQ0F=0;AC=2;AN=2;DP4=831,0,44970,0;MQ=53	GT:PL:DP:AD	1/1:183,255,0:211:16,186
+1603	89	.	A	T	8191.71	.	DP=52680;AD=39502,11357;VDB=0;SGB=-21776.6;RPB=5.44249e-19;MQB=0;BQB=3.72907e-06;MQ0F=0;AC=0;AN=2;DP4=39502,0,11932,0;MQ=52	GT:PL:DP:AD	0/0:0,143,165:231:189,34
+1603	94	.	G	A	38956.5	.	DP=52534;AD=8992,38906;VDB=0;SGB=-1084.74;RPB=5.15487e-05;MQB=0;BQB=0.0707271;MQ0F=0;AC=2;AN=2;DP4=8992,0,38931,0;MQ=53	GT:PL:DP:AD	1/1:157,171,0:200:24,176
+4493	64	.	A	G	8031.61	.	DP=46982;AD=36604,6882;VDB=0;SGB=-10836.5;RPB=0.105492;MQB=0.890527;BQB=0.984476;MQ0F=0;AC=2;AN=2;DP4=36604,0,6893,0;MQ=59	GT:PL:DP:AD	1/1:242,255,0:125:1,124
+19821	108	.	C	A	6.41546	.	DP=34611;AD=32844,912;VDB=0;SGB=-14622.6;RPB=0;MQB=0.96243;BQB=0.0945817;MQ0F=0;AC=0;AN=2;DP4=0,32844,0,934;MQ=59	GT:PL:DP:AD	0/0:0,115,178:51:49,1
+19821	111	.	C	T	1283.24	.	DP=34511;AD=28937,3682;VDB=0;SGB=-12848.5;RPB=0;MQB=1.54711e-33;BQB=0.000288909;MQ0F=0;AC=0;AN=2;DP4=0,28937,0,4819;MQ=59	GT:PL:DP:AD	0/0:5,0,109:51:41,5
+19821	112	.	C	G	1769.83	.	DP=34560;AD=29418,4066;VDB=0;SGB=-13244.1;RPB=0;MQB=1.09582e-41;BQB=0.590532;MQ0F=0;AC=0;AN=2;DP4=0,29418,0,4439;MQ=59	GT:PL:DP:AD	0/0:0,53,140:50:47,3
+19821	118	.	T	A	1161.75	.	DP=34583;AD=33059,969;VDB=0;SGB=-7140.98;RPB=0;MQB=0.683751;BQB=0.579761;MQ0F=0;AC=0;AN=2;DP4=0,33059,0,1082;MQ=59	GT:PL:DP:AD	0/0:0,144,196:50:48,0
+22948	66	.	C	G	12164	.	DP=39411;AD=27091,10760;VDB=0;SGB=9568.13;RPB=0.102859;MQB=0.993644;BQB=1.33575e-16;MQ0F=0;AC=0;AN=2;DP4=27091,0,10798,0;MQ=59	GT:PL:DP:AD	0/0:0,169,180:79:77,2
+22960	41	.	A	G	46079.1	.	DP=41689;AD=10544,28931;VDB=0;SGB=2256.96;RPB=0.153898;MQB=0.998106;BQB=0;MQ0F=0;AC=2;AN=2;DP4=10544,0,28944,0;MQ=59	GT:PL:DP:AD	1/1:194,184,0:73:1,72
+22960	43	.	G	A	322.196	.	DP=41694;AD=40001,284;VDB=0;SGB=-5187.95;RPB=0.996501;MQB=0.996335;BQB=0.664824;MQ0F=0;AC=0;AN=2;DP4=40001,0,291,0;MQ=59	GT:PL:DP:AD	0/0:0,223,214:74:74,0
+24164	75	.	A	G	46107.4	.	DP=24438;AD=3488,19686;VDB=0;SGB=4600.7;RPB=2.89558e-05;MQB=0.999901;BQB=1.64112e-07;MQ0F=0;AC=0;AN=2;DP4=3488,0,19699,0;MQ=59	GT:PL:DP:AD	0/0:0,66,190:22:22,0
+24183	72	.	A	C	6251.68	.	DP=29331;AD=25076,3451;VDB=0;SGB=-2545.94;RPB=4.12953e-07;MQB=0.988929;BQB=4.62857e-25;MQ0F=0;AC=2;AN=2;DP4=25076,0,3530,0;MQ=59	GT:PL:DP:AD	1/1:189,66,0:22:0,22
+24266	62	.	T	A	6104.3	.	DP=23255;AD=18876,2690;VDB=0;SGB=493.945;RPB=0.00166637;MQB=0.946545;BQB=0;MQ0F=0;AC=2;AN=2;DP4=18876,0,2726,0;MQ=59	GT:PL:DP:AD	1/1:168,63,0:33:1,32
+31366	35	.	G	A	1025.47	.	DP=40719;AD=39068,445;VDB=0;SGB=-8148.61;RPB=0.963026;MQB=0.991969;BQB=0.832379;MQ0F=0;AC=0;AN=2;DP4=39068,0,458,0;MQ=59	GT:PL:DP:AD	0/0:0,255,255:147:147,0
+31366	41	.	A	G,C	44062.6	.	DP=40715;AD=10806,27403,31;VDB=0;SGB=2147.89;RPB=0.076644;MQB=0.98597;BQB=1.12174e-41;MQ0F=0;AC=2,0;AN=2;DP4=10806,0,27440,0;MQ=59	GT:PL:DP:AD	1/1:227,255,0,236,255,255:143:3,140,0
+32276	57	.	C	T	8095.27	.	DP=38328;AD=31424,6152;VDB=0;SGB=-2201.17;RPB=0.979604;MQB=0.955883;BQB=5.44886e-06;MQ0F=0;AC=2;AN=2;DP4=31424,0,6167,0;MQ=59	GT:PL:DP:AD	1/1:199,154,0:51:0,51
+32276	58	.	G	A	11556.5	.	DP=38328;AD=31958,5369;VDB=0;SGB=-1062.23;RPB=0.999725;MQB=0.995743;BQB=0.0163146;MQ0F=0;AC=0;AN=2;DP4=31958,0,5381,0;MQ=59	GT:PL:DP:AD	0/0:0,151,200:50:50,0
+32276	59	.	C	T	1745.83	.	DP=38330;AD=36503,851;VDB=0;SGB=-4974.37;RPB=0.884413;MQB=0.997987;BQB=0.404973;MQ0F=0;AC=0;AN=2;DP4=36503,0,866,0;MQ=59	GT:PL:DP:AD	0/0:0,151,199:50:50,0
+32276	87	.	T	A	109.073	.	DP=38324;AD=36638,42;VDB=0;SGB=-2861.35;RPB=0.999117;MQB=0.932505;BQB=0.175282;MQ0F=0;AC=0;AN=2;DP4=36638,0,79,0;MQ=59	GT:PL:DP:AD	0/0:0,154,199:51:51,0
+32365	40	.	A	G	156.017	.	DP=48473;AD=43732,278;VDB=0;SGB=-17613.5;RPB=0.998944;MQB=0.999722;BQB=0.902183;MQ0F=0;AC=0;AN=2;DP4=43732,0,309,0;MQ=59	GT:PL:DP:AD	0/0:0,255,232:101:101,0
+32365	50	.	C	T	7524.89	.	DP=48462;AD=40733,6750;VDB=0;SGB=-11029.1;RPB=0.758243;MQB=0.96434;BQB=0;MQ0F=0;AC=2;AN=2;DP4=40733,0,6782,0;MQ=59	GT:PL:DP:AD	1/1:243,255,0:114:0,114
+35823	60	.	C	CA	208.63	.	INDEL;IDV=244;IMF=0.972112;DP=31648;AD=29570,1904;VDB=0;SGB=-4699.82;MQ0F=0;AC=0;AN=2;DP4=29570,0,2078,0;MQ=58	GT:PL:DP:AD	0/0:0,255,81:122:122,0
+35823	64	.	A	C	14864.2	.	DP=31651;AD=28990,2314;VDB=0;SGB=-13051.9;RPB=0.164291;MQB=5.17457e-17;BQB=0.124959;MQ0F=0;AC=0;AN=2;DP4=28990,0,2387,0;MQ=58	GT:PL:DP:AD	0/0:0,255,247:121:120,0
+35823	67	.	G	A	71.704	.	DP=31336;AD=30846,179;VDB=0;SGB=-11085.4;RPB=1.92314e-41;MQB=1.76313e-08;BQB=0.791895;MQ0F=0;AC=0;AN=2;DP4=30846,0,196,0;MQ=59	GT:PL:DP:AD	0/0:0,255,231:118:117,1
+35823	74	.	A	G	5.84592	.	DP=31414;AD=29752,914;VDB=0;SGB=-14937.9;RPB=0;MQB=0;BQB=0.955972;MQ0F=0;AC=0;AN=2;DP4=29752,0,956,0;MQ=59	GT:PL:DP:AD	0/0:0,136,141:115:107,8
+35823	77	.	C	T,CTT	12138.9	.	DP=31385;AD=31551,11187,45;VDB=0;SGB=10109.7;RPB=0;MQB=1.03544e-17;BQB=3.33422e-16;MQ0F=0;AC=0,0;AN=2;DP4=18906,0,11206,0;MQ=58	GT:PL:DP:AD	0/0:0,255,243,255,.,252:112:122,0,0
+35823	80	.	C	T	749.931	.	DP=31551;AD=29711,606;VDB=0;SGB=-2232.46;RPB=8.25302e-12;MQB=0.505482;BQB=2.61255e-05;MQ0F=0;AC=0;AN=2;DP4=29711,0,617,0;MQ=58	GT:PL:DP:AD	0/0:0,255,246:117:117,0
+35823	81	.	A	G	74.9339	.	DP=31471;AD=29970,196;VDB=0;SGB=-15733.1;RPB=1.2302e-21;MQB=0;BQB=0.875881;MQ0F=0;AC=0;AN=2;DP4=29970,0,505,0;MQ=58	GT:PL:DP:AD	0/0:0,255,206:114:108,2
+35823	84	.	AAG	A	110.697	.	INDEL;IDV=158;IMF=0.858696;DP=31571;AD=31529,41;VDB=0;SGB=135.588;MQ0F=0;AC=0;AN=2;DP4=31529,0,42,0;MQ=58	GT:PL:DP:AD	0/0:0,255,255:122:122,0
+36934	52	.	A	C	11.6523	.	DP=32953;AD=32631,18;VDB=0;SGB=-9784.27;RPB=0.944204;MQB=0.91102;BQB=0.972607;MQ0F=0;AC=0;AN=2;DP4=32631,0,122,0;MQ=59	GT:PL:DP:AD	0/0:0,226,213:76:75,0
+36934	53	.	A	G	47474.3	.	DP=32958;AD=6737,25436;VDB=0;SGB=5548.15;RPB=0.987828;MQB=0.999984;BQB=0;MQ0F=0;AC=0;AN=2;DP4=6737,0,25450,0;MQ=59	GT:PL:DP:AD	0/0:0,202,205:67:67,0
+36934	76	.	T	G	251.435	.	DP=33022;AD=31857,148;VDB=0;SGB=-9521.52;RPB=0.997673;MQB=0.886417;BQB=0.878172;MQ0F=0;AC=0;AN=2;DP4=31857,0,264,0;MQ=59	GT:PL:DP:AD	0/0:0,223,213:74:74,0
+36934	82	.	G	A	94.0658	.	DP=33020;AD=32164,52;VDB=1.4013e-45;SGB=-2226.84;RPB=0.99926;MQB=0.815804;BQB=0.164197;MQ0F=0;AC=0;AN=2;DP4=32164,0,62,0;MQ=59	GT:PL:DP:AD	0/0:0,139,173:69:67,2
+36934	84	.	G	A	133.657	.	DP=33020;AD=31623,150;VDB=0;SGB=-5234.84;RPB=0.996482;MQB=0.994397;BQB=0.881767;MQ0F=0;AC=0;AN=2;DP4=31623,0,155,0;MQ=59	GT:PL:DP:AD	0/0:0,220,211:73:73,0
+38494	31	.	G	A	2486.68	.	DP=46723;AD=44627,1117;VDB=0;SGB=-5718.95;RPB=0.998214;MQB=0.999398;BQB=0.676652;MQ0F=0;AC=0;AN=2;DP4=44627,0,1124,0;MQ=59	GT:PL:DP:AD	0/0:0,255,255:141:141,0
+38494	40	.	G	A	8.1465	.	DP=46728;AD=45662,61;VDB=0;SGB=-3383.69;RPB=0.9773;MQB=0.914482;BQB=0.908417;MQ0F=0;AC=0;AN=2;DP4=45662,0,65,0;MQ=59	GT:PL:DP:AD	0/0:0,255,250:138:137,1
+38494	55	.	A	G	48428.8	.	DP=46703;AD=8954,33512;VDB=0;SGB=3193.51;RPB=0.729747;MQB=0.99979;BQB=0;MQ0F=0;AC=2;AN=2;DP4=8954,0,33521,0;MQ=59	GT:PL:DP:AD	1/1:249,255,0:133:1,132
+38494	56	.	G	A	3.97478	.	DP=46710;AD=45486,55;VDB=3.50325e-44;SGB=-3452.07;RPB=0.778114;MQB=0.917542;BQB=0.672322;MQ0F=0;AC=0;AN=2;DP4=45486,0,68,0;MQ=59	GT:PL:DP:AD	0/0:0,255,255:138:138,0
+40247	38	.	T	C	122.146	.	DP=30804;AD=30088,95;VDB=0;SGB=-1367.52;RPB=0.895442;MQB=0.986515;BQB=0.960903;MQ0F=0;AC=0;AN=2;DP4=30088,0,102,0;MQ=59	GT:PL:DP:AD	0/0:0,50,154:38:36,2
+42956	72	.	C	T	7878.85	.	DP=43239;AD=35671,6554;VDB=0;SGB=-7085.15;RPB=0.000462903;MQB=0.938155;BQB=6.80103e-17;MQ0F=0;AC=2;AN=2;DP4=35671,0,6576,0;MQ=59	GT:PL:DP:AD	1/1:224,255,0:90:0,90
+42956	73	.	G	A	2315.1	.	DP=43236;AD=40323,1230;VDB=0;SGB=-4781.99;RPB=0.980275;MQB=0.995372;BQB=0.0180581;MQ0F=0;AC=0;AN=2;DP4=40323,0,1238,0;MQ=59	GT:PL:DP:AD	0/0:0,253,221:84:84,0
+42956	83	.	G	T	80.9735	.	DP=43231;AD=41398,51;VDB=0;SGB=-7851.53;RPB=0.97263;MQB=0.990047;BQB=0.29317;MQ0F=0;AC=0;AN=2;DP4=41398,0,126,0;MQ=59	GT:PL:DP:AD	0/0:0,255,225:88:88,0
+42980	25	.	C	A	5115.44	.	DP=47533;AD=39940,5012;VDB=0;SGB=2172.57;RPB=0.306157;MQB=0.981885;BQB=0.822768;MQ0F=0;AC=0;AN=2;DP4=39940,0,5060,0;MQ=59	GT:PL:DP:AD	0/0:0,178,204:59:59,0
+42980	33	.	C	T	54412.2	.	DP=47528;AD=5610,40252;VDB=0;SGB=2150.42;RPB=0.988631;MQB=0.959379;BQB=1.74181e-42;MQ0F=0;AC=0;AN=2;DP4=5610,0,40267,0;MQ=59	GT:PL:DP:AD	0/0:0,172,203:57:57,0
+45176	80	.	C	T	11525.4	.	DP=32917;AD=23423,8852;VDB=0;SGB=6431.59;RPB=0.0297922;MQB=0.973734;BQB=0;MQ0F=0;AC=0;AN=2;DP4=23423,0,8867,0;MQ=59	GT:PL:DP:AD	0/0:0,45,184:15:15,0
+45176	86	.	A	G	140.657	.	DP=32910;AD=31459,223;VDB=0;SGB=-9302.08;RPB=0.998909;MQB=0.999734;BQB=0.822989;MQ0F=0;AC=0;AN=2;DP4=31459,0,243,0;MQ=59	GT:PL:DP:AD	0/0:0,45,185:15:15,0
+45176	96	.	C	T	566.82	.	DP=32905;AD=31559,325;VDB=0;SGB=-5626.62;RPB=0.995699;MQB=0.997508;BQB=0.541625;MQ0F=0;AC=0;AN=2;DP4=31559,0,338,0;MQ=59	GT:PL:DP:AD	0/0:0,45,185:15:15,0
+46101	48	.	C	T	3515.52	.	DP=28983;AD=26729,1724;VDB=0;SGB=-1682.24;RPB=0.997504;MQB=0.994805;BQB=0.215979;MQ0F=0;AC=0;AN=2;DP4=26729,0,1737,0;MQ=59	GT:PL:DP:AD	0/0:0,90,192:30:30,0
+85001	83	.	C	T	7592.17	.	DP=38638;AD=32142,5566;VDB=0;SGB=-4203.16;RPB=7.50196e-05;MQB=0.989621;BQB=5.35812e-09;MQ0F=0;AC=2;AN=2;DP4=32142,0,5575,0;MQ=59	GT:PL:DP:AD	1/1:211,208,0:69:0,69
+92615	84	.	G	T	6681.33	.	DP=30485;AD=26208,3787;VDB=0;SGB=-1265.71;RPB=0.999378;MQB=0.981658;BQB=1.04583e-05;MQ0F=0;AC=2;AN=2;DP4=26208,0,3834,0;MQ=59	GT:PL:DP:AD	1/1:189,75,0:26:0,25
+92615	92	.	G	T	27652.9	.	DP=30477;AD=17038,12728;VDB=0;SGB=6970.52;RPB=0.000217234;MQB=0.989994;BQB=4.22251e-09;MQ0F=0;AC=0;AN=2;DP4=17038,0,12766,0;MQ=59	GT:PL:DP:AD	0/0:0,81,191:27:27,0
+97479	25	.	G	A	286.989	.	DP=41927;AD=40665,224;VDB=0;SGB=-5731.69;RPB=0.987568;MQB=0.99937;BQB=0.919081;MQ0F=0;AC=0;AN=2;DP4=40665,0,231,0;MQ=59	GT:PL:DP:AD	0/0:0,255,253:125:125,0
+97479	40	.	G	A	26.1159	.	DP=41145;AD=39634,61;VDB=0;SGB=-4155.71;RPB=0.943754;MQB=0.9999;BQB=0.918982;MQ0F=0;AC=0;AN=2;DP4=39634,0,73,0;MQ=59	GT:PL:DP:AD	0/0:0,255,250:119:119,0
+97479	63	.	C	T	12452.3	.	DP=41776;AD=29281,11003;VDB=0;SGB=6794.56;RPB=0.169935;MQB=0.926771;BQB=8.907e-35;MQ0F=0;AC=0;AN=2;DP4=29281,0,11020,0;MQ=59	GT:PL:DP:AD	0/0:0,255,214:121:119,2
+108168	26	.	C	T	12538	.	DP=43266;AD=29569,12621;VDB=0;SGB=7618.03;RPB=0.518564;MQB=0.929861;BQB=3.58343e-17;MQ0F=0;AC=0;AN=2;DP4=29569,0,12645,0;MQ=59	GT:PL:DP:AD	0/0:0,255,255:239:237,2
+46762	63	.	A	G	58363.6	.	DP=50907;AD=5564,44029;VDB=0;SGB=716.261;RPB=0.687081;MQB=0.9918;BQB=0.111869;MQ0F=0;AC=2;AN=2;DP4=5564,0,44043,0;MQ=59	GT:PL:DP:AD	1/1:255,255,0:153:0,153
+96615	66	.	C	T	7108.18	.	DP=32099;AD=27054,4081;VDB=0;SGB=-1747.57;RPB=0.964407;MQB=0.933444;BQB=0.0392408;MQ0F=0;AC=2;AN=2;DP4=27054,0,4101,0;MQ=59	GT:PL:DP:AD	1/1:167,48,0:29:1,27
+96615	87	.	C	T	1240.46	.	DP=32077;AD=30417,802;VDB=0;SGB=-2228.46;RPB=0.847532;MQB=0.998259;BQB=0.854139;MQ0F=0;AC=0;AN=2;DP4=30417,0,806,0;MQ=59	GT:PL:DP:AD	0/0:0,90,191:30:30,0
+96615	99	.	C	T	346.444	.	DP=31989;AD=30092,126;VDB=0;SGB=-6187.12;RPB=0.997239;MQB=0.999731;BQB=0.988582;MQ0F=0;AC=0;AN=2;DP4=30092,0,133,0;MQ=59	GT:PL:DP:AD	0/0:0,84,190:28:28,0
